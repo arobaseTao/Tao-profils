@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poppins:wght@600&display=swap');
+
+body{
+    background-color: #36393F;
+    color: aliceblue;
+    font-family: 'Baloo 2', cursive;
+}
+
+h2{
+    color: aliceblue;
+    text-shadow: 15px;
+}
+h1.dev{
+    text-align: center;
+    vertical-align: center;
+    font-size: 80px;
+    margin-top: 150px;
+}
+.menu {
+    position: absolute;
+    right: 0;
+    font-size: 0px;
+    margin-top: 15px;
+}
+
+.menu nav ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.menu nav ul li {
+    list-style-type: none;
+    margin-right: 35px;
+    font-size: 40px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu nav ul li a.navselection{
+    text-decoration: underline;
+}
+.franime{
+    list-style-type: none;
+    margin-right: 35px;
+    font-size: 60px;
+
+
+}
+.franime a{
+    text-decoration: underline 3px #615350;
+    color: aliceblue;
+}
+
+.typewrite{
+    font-size: 65px;
+}
+.name{
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+.logoname img{
+    margin-right:30px;
+}
+.reso {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 13px;
+    margin-right: 13px;
+
+    
+}
+
+.reso * {
+    margin-left: 5px;
+}
+h2 a{
+    color: aliceblue;
+    
+}
